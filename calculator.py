@@ -20,12 +20,9 @@ def hypotenuse(a, b):
 def mul(a, b):
     return a * b
 def div(a, b):
-    try:
         if a == 0:
             raise ZeroDivisionError
         return b / a
-    except ZeroDivisionError:
-        print("Can't divide by zero")
 def add(a, b): 
     return a + b
 def subtract(a, b): 
