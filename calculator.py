@@ -19,7 +19,19 @@ def div(a, b):
         return b / a
     except ZeroDivisionError:
         print("Can't divide by zero")
-
+def add(a, b): 
+    return a + b
+def subtract(a, b): 
+    return a - b
+def multiply(a, b): 
+    return a * b
+def logarithm(a, b):
+    try:
+        return math.log(b,a)
+    except ValueError:
+        raise ValueError()
+def exponent(a, b): 
+    return a ** b
 def log(a, b):
     try:
         if a < 0 or b < 0:
@@ -27,6 +39,5 @@ def log(a, b):
         return math.log(a, b)
     except ValueError:
         print("Can't accept numbers less than or equal to 0")
-
 def exp(a, b):
     return pow(a,b)
