@@ -1,3 +1,7 @@
+# https://github.com/laplaceshrugged/lab10-AR-DC.git
+# Partner 1: Adityaa Ravi
+# Partner 2: Dev Castillo
+
 """
 calculator.py
 - Defines functions used to create a simple calculator

@@ -1,3 +1,7 @@
+# https://github.com/laplaceshrugged/lab10-AR-DC.git
+# Partner 1: Adityaa Ravi
+# Partner 2: Dev Castillo
+
 import unittest
 from calculator import *
 
